@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xycaicaicai.github.io/"/>
-  <updated>2019-04-09T07:15:27.500Z</updated>
+  <updated>2019-04-10T07:15:36.610Z</updated>
   <id>https://xycaicaicai.github.io/</id>
   
   <author>
@@ -17,67 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>写作练习</title>
+    <link href="https://xycaicaicai.github.io/2019/04/10/%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0/"/>
+    <id>https://xycaicaicai.github.io/2019/04/10/写作练习/</id>
+    <published>2019-04-10T07:12:46.000Z</published>
+    <updated>2019-04-10T07:15:36.610Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="英语 写作" scheme="https://xycaicaicai.github.io/tags/%E8%8B%B1%E8%AF%AD-%E5%86%99%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Independent Writting Material</title>
     <link href="https://xycaicaicai.github.io/2019/04/09/Independent-Writting-Material/"/>
     <id>https://xycaicaicai.github.io/2019/04/09/Independent-Writting-Material/</id>
     <published>2019-04-09T07:15:27.000Z</published>
     <updated>2019-04-09T07:15:27.500Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MC start 02</title>
-    <link href="https://xycaicaicai.github.io/2019/04/09/MC-start-02/"/>
-    <id>https://xycaicaicai.github.io/2019/04/09/MC-start-02/</id>
-    <published>2019-04-09T07:14:48.000Z</published>
-    <updated>2019-04-09T07:14:48.564Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MC start 01</title>
-    <link href="https://xycaicaicai.github.io/2019/04/09/MC-start-01/"/>
-    <id>https://xycaicaicai.github.io/2019/04/09/MC-start-01/</id>
-    <published>2019-04-09T07:14:42.000Z</published>
-    <updated>2019-04-09T07:14:42.978Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>什么是欲望</title>
-    <link href="https://xycaicaicai.github.io/2019/04/09/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AC%B2%E6%9C%9B/"/>
-    <id>https://xycaicaicai.github.io/2019/04/09/什么是欲望/</id>
-    <published>2019-04-09T07:14:20.000Z</published>
-    <updated>2019-04-09T07:14:20.169Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>关于生命</title>
-    <link href="https://xycaicaicai.github.io/2019/04/09/%E5%85%B3%E4%BA%8E%E7%94%9F%E5%91%BD/"/>
-    <id>https://xycaicaicai.github.io/2019/04/09/关于生命/</id>
-    <published>2019-04-09T07:13:59.000Z</published>
-    <updated>2019-04-09T07:13:59.980Z</updated>
     
     <summary type="html">
     
@@ -102,6 +62,60 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>MC start 02</title>
+    <link href="https://xycaicaicai.github.io/2019/01/23/MC-start-02/"/>
+    <id>https://xycaicaicai.github.io/2019/01/23/MC-start-02/</id>
+    <published>2019-01-23T07:14:48.000Z</published>
+    <updated>2019-04-22T09:29:06.171Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Well-known-algorithms"><a href="#Well-known-algorithms" class="headerlink" title="Well known algorithms"></a>Well known algorithms</h3><h4 id="1-K-Nearest-Neighbor"><a href="#1-K-Nearest-Neighbor" class="headerlink" title="1. K Nearest Neighbor"></a>1. K Nearest Neighbor</h4><h5 id="（1）-One-of-the-simplest-classfication-algorithms"><a href="#（1）-One-of-the-simplest-classfication-algorithms" class="headerlink" title="（1） One of the simplest classfication algorithms"></a>（1） One of the simplest classfication algorithms</h5><h5 id="（2）-Often-used-in-classfication"><a href="#（2）-Often-used-in-classfication" class="headerlink" title="（2） Often used in classfication"></a>（2） Often used in classfication</h5><h5 id="（3）-Classiﬁcation-is-computed-from-a-simple-majority-vote-of-the-nearest-neighbors-of-each-point"><a href="#（3）-Classiﬁcation-is-computed-from-a-simple-majority-vote-of-the-nearest-neighbors-of-each-point" class="headerlink" title="（3） Classiﬁcation is computed from a simple majority vote of the nearest neighbors of each point"></a>（3） Classiﬁcation is computed from a simple majority vote of the nearest neighbors of each point</h5><h5 id="（4）-K-is-constant-speciﬁed-by-user"><a href="#（4）-K-is-constant-speciﬁed-by-user" class="headerlink" title="（4） K is constant speciﬁed by user"></a>（4） K is constant speciﬁed by user</h5><h5 id="（5）-KNN-is-computationally-expensive"><a href="#（5）-KNN-is-computationally-expensive" class="headerlink" title="（5） KNN is computationally expensive"></a>（5） KNN is computationally expensive</h5><h4 id="2-Support-Vector-Machine"><a href="#2-Support-Vector-Machine" class="headerlink" title="2. Support Vector Machine"></a>2. Support Vector Machine</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Well-known-algorithms&quot;&gt;&lt;a href=&quot;#Well-known-algorithms&quot; class=&quot;headerlink&quot; title=&quot;Well known algorithms&quot;&gt;&lt;/a&gt;Well known algorithms&lt;/
+      
+    
+    </summary>
+    
+      <category term="专业学习" scheme="https://xycaicaicai.github.io/categories/%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MC start 01</title>
+    <link href="https://xycaicaicai.github.io/2018/11/28/MC-start-01/"/>
+    <id>https://xycaicaicai.github.io/2018/11/28/MC-start-01/</id>
+    <published>2018-11-28T07:14:42.000Z</published>
+    <updated>2019-04-22T09:24:08.324Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Day-01"><a href="#Day-01" class="headerlink" title="Day 01"></a>Day 01</h2><h3 id="引"><a href="#引" class="headerlink" title="引"></a>引</h3><p>&nbsp;&nbsp;大四一年所作的工作于论文都是基于：CV+MachingLearning, 回头去看，收获很多但是也深切感受到自己当初拖着课题几乎是盲目的去工作，走了很多弯路，自己也缺乏完整的知识体系，恰巧在机器之心上看到一封开源教材 Getting Started With Maching Learning 来自SAP（全球第一大商业软件公司）的梁劲（Jim Liang）公开了自己所写的一份 520 页的学习教程（英文版），详细、明了地介绍了机器学习中的相关概念、数学知识和各种经典算法。准备以此为脉络，研究生之前构架自己的知识体系。在学习每节内容之后，尽量设计可以体现该节知识的demo。<br>&nbsp;&nbsp; 主要关注于第二章算法的实现部分，在基础概念介绍部分原文十分详细、图表也更丰富，所以不再做画蛇添足的工作。</p><h3 id="The-Fundamental-of-Concept-原文详尽且形象"><a href="#The-Fundamental-of-Concept-原文详尽且形象" class="headerlink" title="The Fundamental of Concept( 原文详尽且形象 )"></a>The Fundamental of Concept( 原文详尽且形象 )</h3><h4 id="1-Overview"><a href="#1-Overview" class="headerlink" title="1.Overview"></a>1.Overview</h4><h4 id="2-Business-Understanding"><a href="#2-Business-Understanding" class="headerlink" title="2. Business Understanding"></a>2. Business Understanding</h4><h4 id="3-Data-Understanding"><a href="#3-Data-Understanding" class="headerlink" title="3. Data Understanding"></a>3. Data Understanding</h4><h4 id="4-Data-Preparation"><a href="#4-Data-Preparation" class="headerlink" title="4. Data Preparation"></a>4. Data Preparation</h4><h4 id="5-Modeling"><a href="#5-Modeling" class="headerlink" title="5. Modeling"></a>5. Modeling</h4><h4 id="6-Model-Evaluation"><a href="#6-Model-Evaluation" class="headerlink" title="6. Model Evaluation"></a>6. Model Evaluation</h4><h4 id="7-Model-Depolyment"><a href="#7-Model-Depolyment" class="headerlink" title="7. Model Depolyment"></a>7. Model Depolyment</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Day-01&quot;&gt;&lt;a href=&quot;#Day-01&quot; class=&quot;headerlink&quot; title=&quot;Day 01&quot;&gt;&lt;/a&gt;Day 01&lt;/h2&gt;&lt;h3 id=&quot;引&quot;&gt;&lt;a href=&quot;#引&quot; class=&quot;headerlink&quot; title=&quot;引&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+      <category term="专业学习" scheme="https://xycaicaicai.github.io/categories/%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
   </entry>
   
@@ -134,6 +148,54 @@
     
     
       <category term="打卡" scheme="https://xycaicaicai.github.io/tags/%E6%89%93%E5%8D%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是欲望</title>
+    <link href="https://xycaicaicai.github.io/2018/11/14/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AC%B2%E6%9C%9B/"/>
+    <id>https://xycaicaicai.github.io/2018/11/14/什么是欲望/</id>
+    <published>2018-11-14T07:14:20.000Z</published>
+    <updated>2019-04-22T09:07:13.554Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;最近又在想一个奇怪的问题，欲望是什么？</p><h3 id="1-引"><a href="#1-引" class="headerlink" title="1.引"></a>1.引</h3><p>  “对欲望不理解，人就永远不能从桎梏和恐惧中解脱出来。如果你摧毁了你的欲望，可能你也摧毁了你的生活。如果你扭曲它，压制它，你摧毁的可能是非凡之美。”</p><h3 id="2-【欲望】"><a href="#2-【欲望】" class="headerlink" title="2.【欲望】"></a>2.【欲望】</h3><p>  新华词典：</p><p>    基本解释：1.希望﹐盼望。 2.想得到某种东西或达到某种目的的要求。</p><p>  Cambridge Dictionary：</p><p>    to want something, especially strongly</p><h3 id="3-是什么？"><a href="#3-是什么？" class="headerlink" title="3.是什么？"></a>3.是什么？</h3><p>&emsp;&emsp;词典的定义都是由表面现象得到定义，我想知道的是本质的欲望是什么呢？不管是什么样的思绪和想法，一旦清楚的明白它就可以掌控它，就像之前关于生命我的不解、时常涌出的烦闷都在那天看见那段话之后完全释然</p><p><em>&emsp;&emsp;“我无法接受这个可怜的生命仅仅在无边的宇宙中像一粒微尘一样存在过短短的一段时间然后永远消失不见的残酷事实。荣格说，这个问题不能<br>常想，否则人会疯掉。我却常常想，不由自主，至今尚未疯掉只能说明我的神经质地坚韧，而且不是一般的坚韧。”<br>明白自己的困扰从哪里来、自己的恐惧是因为什么、这种感受又该怎么表述，在这之后，我理解了它，也摆脱了这个问题对我的困扰。</em></p><p>&emsp;&emsp;而【欲望】是什么？我没有找到严谨的定义或者是对于人为什么会被其裹挟，仅仅是生物的本能嘛？不知道，只是随便写写这些乱七八糟的问题，留下一个思绪的线索，如果有一天得以明了，再来补上。</p><p>———————- 11月27日晚 补充—————</p><p>&emsp;&emsp;今天晚上随手翻了翻书正好看到黑格尔在讲精神现象学的时候提到的一段话可以作为现阶段的理解或者是这个问题是不能理解的原因：</p><p><em><br>&emsp;&emsp;将绝对精神的一切内容都理解为了有限事物，理解为了人的绝对本质和人的表象，所以说绝对的本质对它来说变成了一种不可能具有任何规定和谓词的虚空简言之，之前因为李银河那段话而豁然的问题是具体的、可描述的现象，而对于欲望这种组成人的本质难以有一个具体描述或定义。</em></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp;&amp;emsp;最近又在想一个奇怪的问题，欲望是什么？&lt;/p&gt;
+&lt;h3 id=&quot;1-引&quot;&gt;&lt;a href=&quot;#1-引&quot; class=&quot;headerlink&quot; title=&quot;1.引&quot;&gt;&lt;/a&gt;1.引&lt;/h3&gt;&lt;p&gt;  “对欲望不理解，人就永远不能从桎梏和恐惧中解脱出来
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://xycaicaicai.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="胡思乱想" scheme="https://xycaicaicai.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于生命</title>
+    <link href="https://xycaicaicai.github.io/2018/09/14/%E5%85%B3%E4%BA%8E%E7%94%9F%E5%91%BD/"/>
+    <id>https://xycaicaicai.github.io/2018/09/14/关于生命/</id>
+    <published>2018-09-14T07:13:59.000Z</published>
+    <updated>2019-05-15T12:24:14.990Z</updated>
+    
+    <content type="html"><![CDATA[<p>误删待补</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;误删待补&lt;/p&gt;
+
+      
+    
+    </summary>
+    
     
   </entry>
   
