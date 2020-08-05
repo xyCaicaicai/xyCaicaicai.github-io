@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xycaicaicai.github.io/"/>
-  <updated>2020-07-01T13:31:37.338Z</updated>
+  <updated>2020-07-28T07:53:54.685Z</updated>
   <id>https://xycaicaicai.github.io/</id>
   
   <author>
@@ -17,9 +17,125 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Project-Road-Scene-Segmentation</title>
+    <link href="https://xycaicaicai.github.io/2020/07/28/Projects/Project-Road-Scene-Segmentation/"/>
+    <id>https://xycaicaicai.github.io/2020/07/28/Projects/Project-Road-Scene-Segmentation/</id>
+    <published>2020-07-28T07:53:54.000Z</published>
+    <updated>2020-07-28T07:53:54.685Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Distributed-Computing-02:Architectures of Distributed Systems (continued) &amp;&amp; Processes</title>
+    <link href="https://xycaicaicai.github.io/2020/07/17/Distributed-Computing-UQ/Distributed-Computing-02/"/>
+    <id>https://xycaicaicai.github.io/2020/07/17/Distributed-Computing-UQ/Distributed-Computing-02/</id>
+    <published>2020-07-17T07:30:50.000Z</published>
+    <updated>2020-07-18T07:16:47.944Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Distributed-Computing"><a href="#Distributed-Computing" class="headerlink" title="Distributed Computing"></a>Distributed Computing</h2><h3 id="Architectures-of-Distributed-Systems-continued-amp-amp-Processes"><a href="#Architectures-of-Distributed-Systems-continued-amp-amp-Processes" class="headerlink" title="Architectures of Distributed Systems (continued) &amp;&amp; Processes"></a>Architectures of Distributed Systems (continued) &amp;&amp; Processes</h3><h4 id="Learning-Objects"><a href="#Learning-Objects" class="headerlink" title="Learning Objects:"></a>Learning Objects:</h4><hr><ol><li>Understand how behaviour of middleware can be modified [Architecture]</li><li>Understand a basic model for self-managing distributed systems [Architecture]</li><li>Understand the role of processes in distributed systems<br>– processes, threads in clients or servers<br>– processes across multiple systems</li><li>Be able to describe virtualisation models for distributed systems</li></ol><hr><h4 id="OUTLINE"><a href="#OUTLINE" class="headerlink" title="OUTLINE"></a>OUTLINE</h4><p>• Architecture (continued)<br>  – Adaptability and self-management in DS<br>• Processes<br>  – Definitions(Y)<br>  – The use of threads in DS(Y)<br>  – Virtualisation in DS</p><h2 id="–-Clients-Servers"><a href="#–-Clients-Servers" class="headerlink" title="  – Clients/Servers"></a>  – Clients/Servers</h2><ol><li><p>Architecture(Continued)</p><p>1.1 Adaptability and self-management in DS 分布式系统的适应能力以及自我管理能力<br> • Role of middleware is to provide some degree of distribution<br>   transparency</p><pre><code>– Hiding distribution of data, processing and control</code></pre><p> • Middleware may have a particular architectural style, e.g.</p><pre><code>– Object-based (e.g. Common Object Request Broker Architecture -  CORBA)  – Event-based (most of middleware built for adaptive, context-aware applications)</code></pre><p> • Middleware should be adaptive to meet requirements of<br>   various application</p><p>1.2 Using interceptors to adapt control<br> • Interceptors change flow of control and allow additional code to be executed<br> • Many object-based DS use interceptors to change flow of control in the object invocation</p><pre><code>– Requests (object invocations) can be intercepted– Messages can be intercepted</code></pre></li><li><p>Processes - Rationale<br>• （非）A process is an instance of a computer program that is being executed<br>• DS build virtual processors in software, on top of physical processors<br> 分布式系统会在软件层面上建立虚拟处理器（processor），在物理处理器之上</p></li><li><p>Multithreaded Servers<br>Model                               Characteristics                        Description<br>Threads                             Parallelism,blocking system calls      Can do tasks concurrently.</p><pre><code>并行性、阻止系统调用                     A blocking call on one thread does not stop other threads executing.</code></pre></li></ol><p>Single-threaded process             No parallelism, blocking system calls  Cannot do concurrent tasks.<br>                                    非并行、阻止系统调用</p><p>Finitestate machine                 Parallelism,nonblocking system calls   Has one thread. Spends some time on one task. Saves state.<br>                                    并行、不阻止系统调用                     Then spends time on another task. Saves state. Repeat.<br>                                                                           Multiple tasks are being completed, but only part of one at any<br>                                                                           given time.</p><ol start="4"><li><p>Summary<br>• Autonomic computing became trendy due to<br> complexity of distributed systems<br> 自动计算流行的原因是分布式系统的复杂性</p><p>• Processes form basis for communication in DS<br> Processes 构成了DS中communication的基础</p><p>• Threads are useful in clients and servers<br> 线程在服务器和客户端很有用</p><p>• Return of resource virtualisation approaches</p></li></ol><p>  • Client and servers need to support distribution<br>    transparency<br>    客户端和服务器端需要支持分布透明性</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Distributed-Computing&quot;&gt;&lt;a href=&quot;#Distributed-Computing&quot; class=&quot;headerlink&quot; title=&quot;Distributed Computing&quot;&gt;&lt;/a&gt;Distributed Computing&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="Distributed Computing" scheme="https://xycaicaicai.github.io/tags/Distributed-Computing/"/>
+    
+      <category term="Lecture" scheme="https://xycaicaicai.github.io/tags/Lecture/"/>
+    
+      <category term="Final" scheme="https://xycaicaicai.github.io/tags/Final/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LeetCode刷题</title>
+    <link href="https://xycaicaicai.github.io/2020/07/10/LeetCode%E5%88%B7%E9%A2%98/"/>
+    <id>https://xycaicaicai.github.io/2020/07/10/LeetCode刷题/</id>
+    <published>2020-07-10T13:43:18.000Z</published>
+    <updated>2020-07-10T13:46:56.590Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Leetcode" scheme="https://xycaicaicai.github.io/tags/Leetcode/"/>
+    
+      <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java学习笔记</title>
+    <link href="https://xycaicaicai.github.io/2020/07/10/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://xycaicaicai.github.io/2020/07/10/Java学习笔记/</id>
+    <published>2020-07-10T13:41:34.000Z</published>
+    <updated>2020-07-10T13:46:17.128Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>Java注释： </li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;Java注释： &lt;/li&gt;
+&lt;/ol&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="https://xycaicaicai.github.io/tags/Java/"/>
+    
+      <category term="Basics" scheme="https://xycaicaicai.github.io/tags/Basics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Distributed Computing -01：Introduction and Architectures</title>
+    <link href="https://xycaicaicai.github.io/2020/07/03/Distributed-Computing-UQ/Distributed-Computing-01/"/>
+    <id>https://xycaicaicai.github.io/2020/07/03/Distributed-Computing-UQ/Distributed-Computing-01/</id>
+    <published>2020-07-03T09:44:32.000Z</published>
+    <updated>2020-07-19T06:56:49.803Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Distributed-Computing"><a href="#Distributed-Computing" class="headerlink" title="Distributed Computing"></a>Distributed Computing</h2><h3 id="Introduction-to-Distributed-System"><a href="#Introduction-to-Distributed-System" class="headerlink" title="Introduction to Distributed System"></a>Introduction to Distributed System</h3><h4 id="Learning-Objects"><a href="#Learning-Objects" class="headerlink" title="Learning Objects:"></a>Learning Objects:</h4><ul><li>Understand definitions and goals of distributed systems</li><li>Be able to describe types of distributed systems</li><li>Be able to describe various architectures of distributed systems</li></ul><ol><li><p>Definitions of Distributed System<br> A distributed system organized as middleware which hides differences between particular nodes.</p></li><li><p>Goals of DS</p><p>2.1 Transparency(hiding distributed) 透明<br>   System presents itself as a single computer system.<br>   1) Access:</p><pre><code>Hide difference in data representation and how a resource is accessed</code></pre><p>   2) Location</p><pre><code>Hide where a resource is located</code></pre><p>   3) Migration</p><pre><code>Hide that a resource may move to another location</code></pre><p>   4) Relocation</p><pre><code>Hide that a resource may be moved to another location while in use</code></pre><p>   5) Replication</p><pre><code>Hide that resource is replicated</code></pre><p>   6) Concurrency 并发</p><pre><code>Hide that a source may be shared by several competitive users</code></pre><p>   7) Failure  /ˈfeɪljər/</p><pre><code>Hide the failure and recover of a resource</code></pre><p>2.2 Openness 开放性<br>   1)Interoperability 互相操作</p><pre><code>the extent by which 2 implementations of systems or components can co-exist and work together.</code></pre><p>   2)Portability  接口            </p><pre><code>to what extent an application developed for a distributed system A can be executed without modification, on a different distributed system B that has the same interface as A.</code></pre><p>   3)Heterogeneity(异构性/非均匀性)</p><pre><code>components of different characteristics and natures can be integrated together through a unified, standardised interface.</code></pre><p>2.3 Scalability 可拓展性<br>   2.3.1  Dimensions of Scalability 维度拓展</p><pre><code>1) Size scalability: 尺寸  we can add more users and/or resources to the system without breaking it up and resemble again with more components.2)  Geographically /ˌdʒiːəˈɡræfɪkli/  scalable: 地理位置  locations of different components, resources, and its users doesn’t dictate the performance of the system.3)  Administratively /ədˈmɪnɪstreɪtɪvli/  scalable:  管理  the system is still scalable even if it spans many independent administrative organisations.</code></pre><p>   2.3.2 Scaling techniques 拓展技术</p><pre><code>1) Hiding communication latencies 隐藏通信延迟  – Asynchronous communication  异步通信2) Distribution 分布式  – Split and spread functionality across the system  – Decentralise algorithms 去中心化算法    • No machine has complete information about the system state    • Machines make decisions based only on local information    • Failure of one machine does not ruin the algorithm    • There is no implicit assumption that a global clock exists3) Replication (including caching) 复制</code></pre></li></ol><ol start="3"><li>Summary<br>• Distributed systems are built for multicomputers and have to<br> deal with<br>   – Heterogeneous hardware, heterogeneous networks and<pre><code>heterogeneous operating systems</code></pre> //因为分布式系统是多个电脑组合起来的，所以必须面对、处理 “硬件异构”、“网络异构” 以及 “操作系统异构”</li></ol><p>  • Distributed systems need to be open, be scalable and provide a<br>  variety of transparencies</p><p>  • Distributed applications may have different architectural styles<br>  (software architecture)</p><p>  • Software components, their interactions and placement define<br>  system architecture</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Distributed-Computing&quot;&gt;&lt;a href=&quot;#Distributed-Computing&quot; class=&quot;headerlink&quot; title=&quot;Distributed Computing&quot;&gt;&lt;/a&gt;Distributed Computing&lt;/
+      
+    
+    </summary>
+    
+      <category term="专业学习" scheme="https://xycaicaicai.github.io/categories/%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Distributed Computing" scheme="https://xycaicaicai.github.io/tags/Distributed-Computing/"/>
+    
+      <category term="Lecture" scheme="https://xycaicaicai.github.io/tags/Lecture/"/>
+    
+      <category term="Final" scheme="https://xycaicaicai.github.io/tags/Final/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Distributed Computing Final</title>
-    <link href="https://xycaicaicai.github.io/2020/06/16/Distributed-Computing-Final/"/>
-    <id>https://xycaicaicai.github.io/2020/06/16/Distributed-Computing-Final/</id>
+    <link href="https://xycaicaicai.github.io/2020/06/16/Distributed-Computing-UQ/Distributed-Computing-Final/"/>
+    <id>https://xycaicaicai.github.io/2020/06/16/Distributed-Computing-UQ/Distributed-Computing-Final/</id>
     <published>2020-06-16T09:42:38.000Z</published>
     <updated>2020-07-01T13:31:37.338Z</updated>
     
@@ -41,8 +157,8 @@
   
   <entry>
     <title>Distributed-Computing-BlockChain</title>
-    <link href="https://xycaicaicai.github.io/2020/05/29/Distributed-Computing-BlockChain/"/>
-    <id>https://xycaicaicai.github.io/2020/05/29/Distributed-Computing-BlockChain/</id>
+    <link href="https://xycaicaicai.github.io/2020/05/29/Distributed-Computing-UQ/Distributed-Computing-BlockChain/"/>
+    <id>https://xycaicaicai.github.io/2020/05/29/Distributed-Computing-UQ/Distributed-Computing-BlockChain/</id>
     <published>2020-05-29T09:44:32.000Z</published>
     <updated>2020-07-01T13:31:31.785Z</updated>
     
@@ -71,8 +187,8 @@
   
   <entry>
     <title>MC9-Evaluating Models and Decision Trees</title>
-    <link href="https://xycaicaicai.github.io/2020/05/26/MC9-Evaluating-Models-and-Decision-Trees/"/>
-    <id>https://xycaicaicai.github.io/2020/05/26/MC9-Evaluating-Models-and-Decision-Trees/</id>
+    <link href="https://xycaicaicai.github.io/2020/05/26/Machine-Learning-UQ/MC9-Evaluating-Models-and-Decision-Trees/"/>
+    <id>https://xycaicaicai.github.io/2020/05/26/Machine-Learning-UQ/MC9-Evaluating-Models-and-Decision-Trees/</id>
     <published>2020-05-26T10:43:47.000Z</published>
     <updated>2020-07-01T13:25:26.813Z</updated>
     
@@ -85,9 +201,9 @@
     
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
-      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
-    
       <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
     
       <category term="Matlab" scheme="https://xycaicaicai.github.io/tags/Matlab/"/>
     
@@ -95,8 +211,8 @@
   
   <entry>
     <title>MC-Exam</title>
-    <link href="https://xycaicaicai.github.io/2020/05/26/MC-Exam/"/>
-    <id>https://xycaicaicai.github.io/2020/05/26/MC-Exam/</id>
+    <link href="https://xycaicaicai.github.io/2020/05/26/Machine-Learning-UQ/MC-Exam/"/>
+    <id>https://xycaicaicai.github.io/2020/05/26/Machine-Learning-UQ/MC-Exam/</id>
     <published>2020-05-26T03:37:33.000Z</published>
     <updated>2020-07-01T13:32:11.563Z</updated>
     
@@ -122,8 +238,8 @@
   
   <entry>
     <title>MC8-Kernel-Machines</title>
-    <link href="https://xycaicaicai.github.io/2020/05/19/MC8-Kernel-Machines/"/>
-    <id>https://xycaicaicai.github.io/2020/05/19/MC8-Kernel-Machines/</id>
+    <link href="https://xycaicaicai.github.io/2020/05/19/Machine-Learning-UQ/MC8-Kernel-Machines/"/>
+    <id>https://xycaicaicai.github.io/2020/05/19/Machine-Learning-UQ/MC8-Kernel-Machines/</id>
     <published>2020-05-19T05:30:01.000Z</published>
     <updated>2020-07-01T13:33:04.647Z</updated>
     
@@ -147,9 +263,9 @@
     
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
-      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
-    
       <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
     
       <category term="Matlab" scheme="https://xycaicaicai.github.io/tags/Matlab/"/>
     
@@ -157,8 +273,8 @@
   
   <entry>
     <title>Database3</title>
-    <link href="https://xycaicaicai.github.io/2020/05/11/Database3/"/>
-    <id>https://xycaicaicai.github.io/2020/05/11/Database3/</id>
+    <link href="https://xycaicaicai.github.io/2020/05/11/Distributed-Computing-UQ/Database3/"/>
+    <id>https://xycaicaicai.github.io/2020/05/11/Distributed-Computing-UQ/Database3/</id>
     <published>2020-05-11T10:06:49.000Z</published>
     <updated>2020-07-01T13:31:22.914Z</updated>
     
@@ -177,11 +293,11 @@
       <category term="专业学习" scheme="https://xycaicaicai.github.io/categories/%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Database" scheme="https://xycaicaicai.github.io/tags/Database/"/>
-    
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
       <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
+    
+      <category term="Database" scheme="https://xycaicaicai.github.io/tags/Database/"/>
     
       <category term="Oracle" scheme="https://xycaicaicai.github.io/tags/Oracle/"/>
     
@@ -191,8 +307,8 @@
   
   <entry>
     <title>MC7-Deep-Learning</title>
-    <link href="https://xycaicaicai.github.io/2020/05/10/MC7-Deep-Learning/"/>
-    <id>https://xycaicaicai.github.io/2020/05/10/MC7-Deep-Learning/</id>
+    <link href="https://xycaicaicai.github.io/2020/05/10/Machine-Learning-UQ/MC7-Deep-Learning/"/>
+    <id>https://xycaicaicai.github.io/2020/05/10/Machine-Learning-UQ/MC7-Deep-Learning/</id>
     <published>2020-05-10T05:33:05.000Z</published>
     <updated>2020-07-01T13:32:54.024Z</updated>
     
@@ -211,9 +327,9 @@
     
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
-      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
-    
       <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
     
       <category term="Matlab" scheme="https://xycaicaicai.github.io/tags/Matlab/"/>
     
@@ -221,8 +337,8 @@
   
   <entry>
     <title>MC6-Neural-Networks</title>
-    <link href="https://xycaicaicai.github.io/2020/05/05/MC6-Neural-Networks/"/>
-    <id>https://xycaicaicai.github.io/2020/05/05/MC6-Neural-Networks/</id>
+    <link href="https://xycaicaicai.github.io/2020/05/05/Machine-Learning-UQ/MC6-Neural-Networks/"/>
+    <id>https://xycaicaicai.github.io/2020/05/05/Machine-Learning-UQ/MC6-Neural-Networks/</id>
     <published>2020-05-05T05:09:23.000Z</published>
     <updated>2020-07-01T13:32:45.714Z</updated>
     
@@ -244,9 +360,9 @@
     
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
-      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
-    
       <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
     
       <category term="Matlab" scheme="https://xycaicaicai.github.io/tags/Matlab/"/>
     
@@ -254,8 +370,8 @@
   
   <entry>
     <title>Database2-DataWarehousing</title>
-    <link href="https://xycaicaicai.github.io/2020/05/03/Database2-DataWarehousing/"/>
-    <id>https://xycaicaicai.github.io/2020/05/03/Database2-DataWarehousing/</id>
+    <link href="https://xycaicaicai.github.io/2020/05/03/Distributed-Computing-UQ/Database2-DataWarehousing/"/>
+    <id>https://xycaicaicai.github.io/2020/05/03/Distributed-Computing-UQ/Database2-DataWarehousing/</id>
     <published>2020-05-03T12:33:53.000Z</published>
     <updated>2020-07-01T13:31:17.411Z</updated>
     
@@ -271,11 +387,11 @@
       <category term="专业学习" scheme="https://xycaicaicai.github.io/categories/%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Database" scheme="https://xycaicaicai.github.io/tags/Database/"/>
-    
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
       <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
+    
+      <category term="Database" scheme="https://xycaicaicai.github.io/tags/Database/"/>
     
       <category term="Oracle" scheme="https://xycaicaicai.github.io/tags/Oracle/"/>
     
@@ -285,8 +401,8 @@
   
   <entry>
     <title>MC4-Clustering</title>
-    <link href="https://xycaicaicai.github.io/2020/04/24/MC4-Clustering/"/>
-    <id>https://xycaicaicai.github.io/2020/04/24/MC4-Clustering/</id>
+    <link href="https://xycaicaicai.github.io/2020/04/24/Machine-Learning-UQ/MC4-Clustering/"/>
+    <id>https://xycaicaicai.github.io/2020/04/24/Machine-Learning-UQ/MC4-Clustering/</id>
     <published>2020-04-24T11:14:23.000Z</published>
     <updated>2020-07-01T13:26:11.635Z</updated>
     
@@ -304,9 +420,9 @@
     
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
-      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
-    
       <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
     
       <category term="Matlab" scheme="https://xycaicaicai.github.io/tags/Matlab/"/>
     
@@ -314,8 +430,8 @@
   
   <entry>
     <title>Distributed-Computing-SmartWatch</title>
-    <link href="https://xycaicaicai.github.io/2020/04/20/Distributed-Computing-SmartWatch/"/>
-    <id>https://xycaicaicai.github.io/2020/04/20/Distributed-Computing-SmartWatch/</id>
+    <link href="https://xycaicaicai.github.io/2020/04/20/Distributed-Computing-UQ/Distributed-Computing-SmartWatch/"/>
+    <id>https://xycaicaicai.github.io/2020/04/20/Distributed-Computing-UQ/Distributed-Computing-SmartWatch/</id>
     <published>2020-04-20T02:59:17.000Z</published>
     <updated>2020-07-01T13:31:47.674Z</updated>
     
@@ -376,9 +492,9 @@
     
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
-      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
-    
       <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
     
       <category term="Python" scheme="https://xycaicaicai.github.io/tags/Python/"/>
     
@@ -388,8 +504,8 @@
   
   <entry>
     <title>MC3- Multivariate Parametric Models and Density Estimation</title>
-    <link href="https://xycaicaicai.github.io/2020/04/17/MC3-Multivariate-Parametric-Models-and-Density-Estimation/"/>
-    <id>https://xycaicaicai.github.io/2020/04/17/MC3-Multivariate-Parametric-Models-and-Density-Estimation/</id>
+    <link href="https://xycaicaicai.github.io/2020/04/17/Machine-Learning-UQ/MC3-Multivariate-Parametric-Models-and-Density-Estimation/"/>
+    <id>https://xycaicaicai.github.io/2020/04/17/Machine-Learning-UQ/MC3-Multivariate-Parametric-Models-and-Density-Estimation/</id>
     <published>2020-04-17T12:16:05.000Z</published>
     <updated>2020-07-01T13:24:54.307Z</updated>
     
@@ -402,9 +518,9 @@
     
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
-      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
-    
       <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
     
       <category term="Matlab" scheme="https://xycaicaicai.github.io/tags/Matlab/"/>
     
@@ -412,8 +528,8 @@
   
   <entry>
     <title>MC2_Parametric Models</title>
-    <link href="https://xycaicaicai.github.io/2020/04/16/MC2-Parametric-Models/"/>
-    <id>https://xycaicaicai.github.io/2020/04/16/MC2-Parametric-Models/</id>
+    <link href="https://xycaicaicai.github.io/2020/04/16/Machine-Learning-UQ/MC2-Parametric-Models/"/>
+    <id>https://xycaicaicai.github.io/2020/04/16/Machine-Learning-UQ/MC2-Parametric-Models/</id>
     <published>2020-04-16T06:10:58.000Z</published>
     <updated>2020-07-01T13:32:34.498Z</updated>
     
@@ -436,9 +552,9 @@
     
       <category term="Algorithm" scheme="https://xycaicaicai.github.io/tags/Algorithm/"/>
     
-      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
-    
       <category term="Machining Learning" scheme="https://xycaicaicai.github.io/tags/Machining-Learning/"/>
+    
+      <category term="Homework" scheme="https://xycaicaicai.github.io/tags/Homework/"/>
     
       <category term="Matlab" scheme="https://xycaicaicai.github.io/tags/Matlab/"/>
     
@@ -494,8 +610,8 @@
   
   <entry>
     <title>代办事项</title>
-    <link href="https://xycaicaicai.github.io/2018/11/19/%E4%BB%A3%E5%8A%9E%E4%BA%8B%E9%A1%B9/"/>
-    <id>https://xycaicaicai.github.io/2018/11/19/代办事项/</id>
+    <link href="https://xycaicaicai.github.io/2018/11/19/Essays/%E4%BB%A3%E5%8A%9E%E4%BA%8B%E9%A1%B9/"/>
+    <id>https://xycaicaicai.github.io/2018/11/19/Essays/代办事项/</id>
     <published>2018-11-19T05:12:59.000Z</published>
     <updated>2020-07-01T12:59:17.023Z</updated>
     
@@ -516,8 +632,8 @@
   
   <entry>
     <title>什么是欲望</title>
-    <link href="https://xycaicaicai.github.io/2018/11/14/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AC%B2%E6%9C%9B/"/>
-    <id>https://xycaicaicai.github.io/2018/11/14/什么是欲望/</id>
+    <link href="https://xycaicaicai.github.io/2018/11/14/Essays/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AC%B2%E6%9C%9B/"/>
+    <id>https://xycaicaicai.github.io/2018/11/14/Essays/什么是欲望/</id>
     <published>2018-11-14T05:14:20.000Z</published>
     <updated>2020-07-01T12:44:25.729Z</updated>
     
@@ -541,8 +657,8 @@
   
   <entry>
     <title>关于生命</title>
-    <link href="https://xycaicaicai.github.io/2018/09/14/%E5%85%B3%E4%BA%8E%E7%94%9F%E5%91%BD/"/>
-    <id>https://xycaicaicai.github.io/2018/09/14/关于生命/</id>
+    <link href="https://xycaicaicai.github.io/2018/09/14/Essays/%E5%85%B3%E4%BA%8E%E7%94%9F%E5%91%BD/"/>
+    <id>https://xycaicaicai.github.io/2018/09/14/Essays/关于生命/</id>
     <published>2018-09-14T05:13:59.000Z</published>
     <updated>2020-07-01T12:41:36.919Z</updated>
     
